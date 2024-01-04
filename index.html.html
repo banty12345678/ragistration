@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        {
+            box-sizing:border-box;
+        }
+        input[type="text"],select,textarea{
+            width: 100px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;resize:vertical;
+        }
+        label{
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+        input[type="submit"]{
+            background-color: #04aadc;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor:pointer;
+        }
+        input [type="submit"]:hover{
+            background-color: #45a0a9;
+        }
+        .cotainer {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        col-25{
+            float: left;
+            width: 25%;
+            margin: 6px;
+        }
+        col-75{
+            float: left;
+            width: 75%;
+            margin-top: 6px;
+        }
+            </style>
+</head>
+<body>
+    <h2>responsive form </h2>
+    <p>ri-size the browzer window to see the effect when the screen is lassthan boopx wild make the too colums gtack on top eacho ther insted of next to eachother </p>
+    <div class="container">
+        <form action="actionpage">
+            <div class="row">
+                <div class="col-25">
+                    <label for="f-name">first name </label>
+                </div>
+                <div class="col-75">
+                    <input type="text"id="f-name"name="f name"placeholder="your name">
+                </div>
+            </div>
+                <div class="row">
+                <div class="col-25">
+                    <label for="l name">l-name </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name"name="placeholder="last name"></div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">country</label>
+                        <div class="col-75">
+                            <select id="country"name="country">
+                            <option value="USA">USA</option>
+                            <option value="INDIA">INDIA</option>
+                            <option value="CANADA">CANADA</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-25">
+                    <label for="SUBJECT"></label>
+                    </div>
+                    <div class="col-75">
+                        <textarea="SUBJECT"name="SUBJECT"placeholder="writesomething"style="200px"</textarea>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input type="submit"value="sabmit">
+                    </div>
+                </form>
+    </div>
+</body>
+</html>
+
+
